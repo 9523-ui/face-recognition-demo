@@ -1,9 +1,6 @@
 # 摄像头人脸识别 Demo
 
-![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?logo=python&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-4.5.4%2B-5C3EE8?logo=opencv&logoColor=white)
-![Dependencies](https://img.shields.io/badge/deps-opencv%20%2B%20numpy-brightgreen)
-![License](https://img.shields.io/badge/License-MIT-green)
+**Python 3.9+** · **OpenCV 4.5.4+** · **仅需 opencv + numpy** · **MIT License** · 开箱即用，无需下载模型
 
 打开摄像头，实时框出画面里的人脸；把某个人录入之后，它就能叫出名字，不认识的判为「未知」。
 带**眨眼活体检测**——认出你之后还要眨一下眼才给结论，拿照片对着镜头骗不过去。
