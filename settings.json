@@ -1,0 +1,17 @@
+{
+  "_README": "本文件由程序自动生成。改完保存后重启程序生效。删除本文件会恢复默认值。",
+  "_match_thresh": "1:N 检索的判定阈值。0.363 是 SFace 的 1:1 阈值，用在这里太松（实测陌生人误接受 30%+）。先跑 diagnose.py 看同人相似度，正常应 ≥0.7；再按 bench_scale.py 的建议定值（几十人库通常 0.55~0.65）。",
+  "_require_liveness": "true = 必须眨眼通过才显示名字（防照片）。纯演示可设 false。",
+  "match_thresh": 0.45,
+  "match_margin": 0.045,
+  "min_quality": 0.45,
+  "det_thresh": 0.6,
+  "recog_every": 2,
+  "vote_n": 7,
+  "feat_avg_n": 5,
+  "require_liveness": true,
+  "db_path": "data\\faces.db",
+  "log_level": "INFO",
+  "log_max_mb": 2,
+  "log_backups": 3
+}

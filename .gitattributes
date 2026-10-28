@@ -1,0 +1,11 @@
+# 统一换行符，避免跨平台克隆后 bat 失效
+# .bat 必须 CRLF —— cmd 解析 LF 换行会出问题（实测过：if exist 整块失效）
+
+* text=auto eol=lf
+
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+*.png binary
+*.jpg binary
+*.onnx binary
